@@ -1,3 +1,5 @@
+server:
+  port: 8080
 spring:
   application:
     name: magicdfs
@@ -5,7 +7,7 @@ spring:
     resources:
       static-locations: classpath:/static/,classpath:/resources/static/
 mdfs:
-  path: ${user.name}/mdfs
+  path: /Users/${user.name}/mdfs/8080
   isSync: true
   backupUrl: http://localhost:8081/upload
 logging:
