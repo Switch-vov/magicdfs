@@ -23,7 +23,7 @@ public class HttpSyncer implements FileSyncer {
         RestTemplate restTemplate = new RestTemplate();
         HttpHeaders headers = new HttpHeaders();
         headers.setContentType(MediaType.MULTIPART_FORM_DATA);
-        headers.set("X-Filename", file.getName());
+        headers.set(X_FILENAME, file.getName());
         MultipartBodyBuilder builder = new MultipartBodyBuilder();
         builder.part("file", new FileSystemResource(file));
 
