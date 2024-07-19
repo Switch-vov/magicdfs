@@ -1,0 +1,10 @@
+server:
+  port: 8091
+mdfs:
+  uploadPath: /Users/${user.name}/mdfs/${server.port}
+  backupUrl: http://localhost:8090/upload
+  downloadUrl: http://localhost:8091/download
+  group: C${server.port}
+  autoMd5: true
+  syncBackup: true
+  backupTopic: magic_dfs

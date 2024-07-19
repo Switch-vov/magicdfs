@@ -6,6 +6,8 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 /**
+ * config file temp dir.
+ *
  * @author switch
  * @since 2024/07/17
  */

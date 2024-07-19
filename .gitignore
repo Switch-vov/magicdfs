@@ -32,7 +32,6 @@ build/
 ### VS Code ###
 .vscode/
 
-application-*.yml
 arthas-output
 .DS_Store
 .flattened-pom.xml
